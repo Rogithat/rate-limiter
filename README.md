@@ -19,14 +19,10 @@ Uma implementação flexível de rate limiter em Go que suporta limitação base
 
 ## Instalação
 
-1. Instale as dependências:
-```bash
-go mod download
-```
+Para este projeto é melhor se utilizar o docker-compose:
 
-2. Inicie o Redis usando Docker Compose:
 ```bash
-docker-compose up -d
+./docker-run.sh
 ```
 
 ## Configuração
@@ -59,7 +55,6 @@ go run main.go
 
 2. Teste o rate limiter:
 ```bash
-# Teste sem token (limitação baseada em IP)
 curl http://localhost:8080/test
 
 # Teste com token
