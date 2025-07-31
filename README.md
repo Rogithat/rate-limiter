@@ -13,9 +13,8 @@ Uma implementação flexível de rate limiter em Go que suporta limitação base
 
 ## Pré-requisitos
 
-- Go 1.21 ou superior
-- Docker e Docker Compose (para Redis)
-- Redis (configurado automaticamente via Docker Compose)
+- Go 1.21 ou superior (caso queira buildar sem o docker e rodar os testes unitarios localmente)
+- Docker e Docker Compose
 
 ## Instalação
 
